@@ -67,13 +67,12 @@ const Header = () => {
             <HStack spacing={6}>
             {socials.map((social) => (
               <a href={social.url} target="_blank">
-                <FontAwesomeIcon icon={social.icon} size="2x"/> 
+                <FontAwesomeIcon icon={social.icon} size="2x"/>
               </a>
             ))}
             </HStack>
           </nav>
           <nav>
-            <h2>for example</h2>
             <HStack spacing={8}>
               <a href="/my_react_portfolio/#projects-section" onClick={()=>handleClick("projects")}>Projects</a>
               <a href="/my_react_portfolio/#contactme-section" onClick={()=>handleClick("contactme")}>Contact Me</a>
